@@ -4,23 +4,52 @@ body{
   background-color: #F2D7D5;
 }
 .header{
-  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
 }
-.titulo h1{
+.header .navbar-light{
+  background-color:rgba(255, 255, 255, 0.7) !important;
+}
+.portada{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  background-color: #feb7b1;
+}
+.perfil img{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+  border: 10px solid #ffffff;
+}
+.texto h1, .texto p{
   text-align: center;
-  font-weight: bold;  
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
-.portafolio img{
-  height: 90px;
+.card{
+  border-radius: 10%;
+  padding: 15px;
+  padding-top: 30px;
+  height: 100%;
 }
-
-
-
-
-
-
+.card h5{
+  text-align: center;
+}
 .pie{
   gap: 30px;
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+.pie a i{
+  color: #feb7b1;
+  text-shadow: 2px 2px 4px #00000033;
+
 }
 .pie img{
   height: 40px;

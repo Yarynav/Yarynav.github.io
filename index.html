@@ -16,6 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,700&family=Raleway:wght@100;300;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="favicon" href="img/portafio.png" />
     <title>Portafolio</title>
@@ -23,16 +30,8 @@
   <body>
     <main>
       <header class="header">
-        <div class="titulo">
-          <h1>Portafolio - Yaritza Navarrete</h1>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid portafolio">
-            <a class="navbar-brand" href="#"
-              ><img
-                src="img/portafolio2.png"
-                alt="portafio cafe con pincel gris en caricatura"
-            /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -54,14 +53,33 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contacto</a>
                 </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/Yarynav"
+                    target="_blank"
+                    >github</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
+      <section class="portada d-flex justify-content-center align-items-center">
+        <div class="perfil">
+          <img src="img/foto-perfil.jpg" alt="" />
+        </div>
+        <div class="texto">
+          <h1>Yaritza Navarrete Manzo</h1>
+          <p>
+            Desarrolladora web, apasionada por la tecnología y la programación.
+          </p>
+        </div>
+      </section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-lg-6 p-4">
+          <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
                 src="img/desafio1.JPG"
@@ -69,13 +87,13 @@
                 alt="repreteacion de un documento tipo curriculum vitae de Yaritza Navarrete"
               />
               <div class="card-body">
-                <h5 class="card-title">CURRICULUM VITAE</h5>
+                <h5 class="card-title">Curriculum Vitae</h5>
 
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 p-4">
+          <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
                 src="img/desafio2.JPG"
@@ -83,15 +101,13 @@
                 alt="pagina web que vende figuras de My Hero Academy, se pueden apreciar 3 productos con su descripción y precio"
               />
               <div class="card-body">
-                <h5 class="card-title">
-                  Pagina de Ventas de Figuras My Hero Academy
-                </h5>
+                <h5 class="card-title">Venta de Figuras My Hero Academy</h5>
 
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 p-4">
+          <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
                 src="img/desafio3.JPG"
@@ -109,22 +125,14 @@
       </div>
       <footer class="pie d-flex justify-content-center">
         <a href="https://www.instagram.com/yary_nav/" target="_blank"
-          ><img
-            src="img/instagram.png"
-            alt="logo de instagram con rosado el centro tiene camar blanca"
-        /></a>
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
         <a href="https://www.facebook.com/yarytzax/" target="_blank"
-          ><img
-            src="img/faceboook.png"
-            alt="logo de facebook cuadrado fondo azul y letra f blanca"
-        /></a>
-        <a href="#"
-          ><img
-            src="img/gmail.png"
-            alt="simbolo de un sobre de color azul,rojo,amarillo y verde"
-          />
-          yar.navarrete@gmail.com</a
-        >
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="mailto:yar.navarrete@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
       </footer>
     </main>
     <script

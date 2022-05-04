@@ -4,7 +4,14 @@ body{
   background-color: #F2D7D5;
 }
 .header{
-  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+}
+.header .navbar-light{
+  background-color:rgba(255, 255, 255, 0.7) !important;
 }
 .portada{
   padding-top: 70px;
@@ -23,16 +30,26 @@ body{
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
 }
-
-
-
-
-
+.card{
+  border-radius: 10%;
+  padding: 15px;
+  padding-top: 30px;
+  height: 100%;
+}
+.card h5{
+  text-align: center;
+}
 .pie{
   gap: 30px;
   background-color: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 50px;
+}
+.pie a i{
+  color: #feb7b1;
+  text-shadow: 2px 2px 4px #00000033;
+
 }
 .pie img{
   height: 40px;

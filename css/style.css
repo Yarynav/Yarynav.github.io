@@ -6,14 +6,23 @@ body{
 .header{
   background-color: #ffffff;
 }
-.titulo h1{
+.portada{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  background-color: #feb7b1;
+}
+.perfil img{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+  border: 10px solid #ffffff;
+}
+.texto h1, .texto p{
   text-align: center;
-  font-weight: bold;  
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
-.portafolio img{
-  height: 90px;
-}
-
 
 
 
@@ -21,6 +30,9 @@ body{
 
 .pie{
   gap: 30px;
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pie img{
   height: 40px;

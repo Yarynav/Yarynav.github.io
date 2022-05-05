@@ -23,8 +23,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="favicon" href="img/portafio.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="favicon" href="assets/img/portafio.png" />
     <title>Portafolio</title>
   </head>
   <body>
@@ -61,6 +61,14 @@
                     >github</a
                   >
                 </li>
+                <li class="nav-item">
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Mi Curriculum</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -68,7 +76,7 @@
       </header>
       <section class="portada d-flex justify-content-center align-items-center">
         <div class="perfil">
-          <img src="img/foto-perfil.jpg" alt="" />
+          <img src="assets/img/foto-perfil.jpg" alt="" />
         </div>
         <div class="texto">
           <h1>Yaritza Navarrete Manzo</h1>
@@ -82,55 +90,160 @@
           <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
-                src="img/desafio1.JPG"
+                src="assets/img/desafio1.JPG"
                 class="card-img-top"
                 alt="repreteacion de un documento tipo curriculum vitae de Yaritza Navarrete"
               />
               <div class="card-body">
                 <h5 class="card-title">Curriculum Vitae</h5>
 
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="https://yarynav.github.io/desafio1/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Ver sitio</a
+                >
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
-                src="img/desafio2.JPG"
+                src="assets/img/desafio2.JPG"
                 class="card-img-top"
                 alt="pagina web que vende figuras de My Hero Academy, se pueden apreciar 3 productos con su descripción y precio"
               />
               <div class="card-body">
                 <h5 class="card-title">Venta de Figuras My Hero Academy</h5>
 
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="https://yarynav.github.io/desafio2/"
+                  class="btn btn-primary"
+                  >Ver sitio</a
+                >
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-lg-4 p-4">
             <div class="card w-100">
               <img
-                src="img/desafio3.JPG"
+                src="assets/img/desafio3.JPG"
                 class="card-img-top"
-                alt="imagen de iguana "
+                alt="imagen de iguana con fondo negro y texto con la palabra iguana en color blanco "
               />
               <div class="card-body">
                 <h5 class="card-title">Pagina de Iguana</h5>
 
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a
+                  href="https://yarynav.github.io/desafio3/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver sitio</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 p-4">
+            <div class="card w-100">
+              <img
+                src="assets/img/desafio4.JPG"
+                class="card-img-top"
+                alt="muestra una pagina de descuento con imagenes de cama en una habitacion, un plato de comida y silla de dentista "
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+
+                <a
+                  href="https://yarynav.github.io/desafio4/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver sitio</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 p-4">
+            <div class="card w-100">
+              <img
+                src="assets/img/desafio5.JPG"
+                class="card-img-top"
+                alt="pagina que muestra una mujer colorina ojos azules "
+              />
+              <div class="card-body">
+                <h5 class="card-title">Github</h5>
+
+                <a
+                  href="https://yarynav.github.io/desafio5/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver sitio</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Curriculum</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <iframe
+                src="assets/pdf/curriculum.pdf"
+                class="iframe-curriculum"
+              ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer class="pie d-flex justify-content-center">
-        <a href="https://www.instagram.com/yary_nav/" target="_blank"
+        <a
+          href="https://www.instagram.com/yary_nav/"
+          target="_blank"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Tooltip on top"
           ><i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="https://www.facebook.com/yarytzax/" target="_blank"
+        <a
+          href="https://www.facebook.com/yarytzax/"
+          target="_blank"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Tooltip on top"
           ><i class="fa-brands fa-facebook"></i
         ></a>
-        <a href="mailto:yar.navarrete@gmail.com" target="_blank"
+        <a
+          href="mailto:yar.navarrete@gmail.com"
+          target="_blank"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Tooltip on top"
           ><i class="fa-solid fa-envelope"></i
         ></a>
       </footer>

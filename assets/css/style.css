@@ -11,7 +11,7 @@ body{
   z-index: 2;
 }
 .header .navbar-light{
-  background-color:rgba(255, 255, 255, 0.7) !important;
+  background-color:#ffffffb3 !important;
 }
 .portada{
   padding-top: 70px;
@@ -47,11 +47,21 @@ body{
   font-size: 50px;
 }
 .pie a i{
-  color: #feb7b1;
+  color: #eb9a93;
   text-shadow: 2px 2px 4px #00000033;
 
 }
 .pie img{
   height: 40px;
  
+}
+.btn-primary{
+  background-color: var(--bs-pink);
+  border-color: var(--bs-white);
+}
+.iframe-curriculum {
+  min-height: 500px;
+  width: 100%;
+  border: none;
+
 }
